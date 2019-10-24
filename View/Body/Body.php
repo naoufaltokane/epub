@@ -1,0 +1,102 @@
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<style type="text/css">
+	.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 230px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 0px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+</style>
+<!------ Include the above in your HEAD tag ---------->
+
+<div class="container ">
+    <div class="row">
+        <div class="col-md-3">
+            <!-- It can be fixed with bootstrap affix http://getbootstrap.com/javascript/#affix-->
+            <div id="sidebar" class="well sidebar-nav">
+<button type="button" onclick="location.href = 'interfacemarketing/marketing.php';"  class="btn btn-success col-lg-12"><i class="glyphicon glyphicon-shopping-cart text-center"></i></button>
+                
+               
+                <br><br>
+                <div class="text-center">
+                	<h5><i class="glyphicon glyphicon-road"></i><b> Rubrique</b></h5>
+                
+            </div>
+                <ul >
+			<li><a href="http://google.com/?q=01" id="list-01">Tanger-Tétouan</a></li>
+			<li><a href="http://google.com/?q=02" id="list-02">Gharb-Chrarda-Beni Hssen</a></li>
+			<li><a href="http://google.com/?q=03" id="list-03">Taza-Al Hoceima-Taounate</a></li>
+			<li><a href="http://google.com/?q=04" id="list-04">L'Oriental</a></li>
+			<li><a href="http://google.com/?q=05" id="list-05">Fès-Boulemane</a></li>
+			<li><a href="http://google.com/?q=06" id="list-06">Meknès-Tafilalet</a></li>
+			<li><a href="http://google.com/?q=07" id="list-07">Rabat-Salé-Zemmour-Zaer</a></li>
+			<li><a href="http://google.com/?q=08" id="list-08">Grand Casablanca</a></li>
+			<li><a href="http://google.com/?q=09" id="list-09">Chaouia-Ouardigha</a></li>
+			<li><a href="http://google.com/?q=10" id="list-10">Doukhala-Abda</a></li>
+			<li><a href="http://google.com/?q=11" id="list-11">Marrakech-Tensift-Al Haouz</a></li>
+			<li><a href="http://google.com/?q=12" id="list-12">"Tadla-Azilal</a></li>
+			<li><a href="http://google.com/?q=13" id="list-13">Souss-Massa-Drâa</a></li>
+			<li><a href="http://google.com/?q=14" id="list-14">Guelmim-Es Smara</a></li>
+			<li><a href="http://google.com/?q=15" id="list-15">Laâyoune-Boujdour-Sakia el Hamra</a></li>
+			<li><a href="http://google.com/?q=16" id="list-16">Oued ed Dahab-Lagouira</a></li>
+			</ul>
+               
+            </div>
+        </div>
+
+        <div class="col-md-6">
+                   <?php include("popover1.html"); ?>
+           
+        </div> 
+        <div class="col-md-3">
+            <!-- It can be fixed with bootstrap affix http://getbootstrap.com/javascript/#affix-->
+            <div id="sidebar" class="well sidebar-nav text-center">
+                
+             <h5><i class="glyphicon glyphicon-user " ><b> Suivez-nous</b></i>
+               
+                </h5>
+                <ul class="nav nav-pills nav-stacked">
+                    <li>
+                      
+                      <a href="#" class=" btn btn-block btn-social btn-facebook fa fa-facebook">E-pub</a>
+                        
+                    </li>
+                    <li>
+                      
+                      <a href="#" class="btn btn-block btn-social btn-instagram fa fa-instagram">Epubshop</a>
+                        
+                    </li>
+                    <li>
+                      <a href="#" class="btn btn-block btn-social btn-youtube fa-youtube">Epubshop</a>
+                        
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+
+</div>
